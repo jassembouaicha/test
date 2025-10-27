@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vZ5RSlPpDE6E5kkAlZ_1dQ" Reference="b4z9ll_EQUW04Ui68Xw-qg/HFwx9fwl0E2eGheA_3eZag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="14, 206, 400, 723" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;wnd cls='AVL_AVView' title='AV2AllToolsSecondaryContentView' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AVL_AVView' title='AV2AllToolsSecondaryContentView' /&gt;" Guid="a7f0ad16-cfc0-48d6-a292-e96c97993b3c" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='AcrobatSDIWindow' title='LEMETTRE_JEAN-MICHEL_ Comptes rendus et résultatsCR Hospitalisat*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1f478116951f4b23aac17ed199946819.png" xmlns="">0O9NEgnEL5kutQGruFkClxA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

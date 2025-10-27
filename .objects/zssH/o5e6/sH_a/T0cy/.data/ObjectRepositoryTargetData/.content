@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gKzh36iso0CB8o5L23yOGw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="747, 489, 88, 26" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='Ou&amp;amp;vrir' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='Ou&amp;amp;vrir' check:text='unchecked' /&gt;" Guid="0c848684-c763-4459-ba76-095f1b4be9fe" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dc89d5e36836dd7dca902bbe23c124e9.png" xmlns="">0boJL6GCbTky8cS-xaeAZbw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

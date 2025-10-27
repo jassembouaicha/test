@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1ZF8VEXxtUyZ7sBPKNKT1g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="335, 607, 259, 25" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="a12cf82c-0d67-4121-aa2d-a6aab993532e" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='#32770' title='Ouvrir' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="196, 606, 127, 25" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlid='1090' title='&amp;amp;Nom du fichier :' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1090' title='&amp;amp;Nom du fichier :' check:text='&amp;amp;Nom du fichier :' /&gt;" Guid="ae3f571b-8d69-45d0-91d8-341aad598180" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="10b3f0b75b742a06529f8481633c4eb9.png" xmlns="">0M1z0Yyr4bEGcOvgDlTiodw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

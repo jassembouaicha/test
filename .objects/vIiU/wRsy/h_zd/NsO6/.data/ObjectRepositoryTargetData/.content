@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NSweln5e_UKZ4WNX55vtCA" Reference="b4z9ll_EQUW04Ui68Xw-qg/NsO6mzNxKU2teTmVyMLALA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="wps-psc.dmp.monespacesante.fr/dmp/documents/liste" DesignTimeRectangle="595, 673, 185, 47" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='main-content' tag='TABLE' /&gt;&lt;webctrl id='linkToDocument0' type='' tag='A' class='' aaname='Prescription de produits de santé' check:innerText='Prescription de produits de santé' /&gt;" Guid="3f7716ce-9471-44c0-a8c7-b0db5e87a9d3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='[ Dossier Médical Partagé : Documents ]' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6c41472443a01a0cf428d42183da2444.png" xmlns="">0h6JS9vs2J0KU82vTCLwCjg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

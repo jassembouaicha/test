@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="el3ymmOGpUuPd6jpjJIpKg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="wps-psc.dmp.monespacesante.fr/dmp/documents/liste" DesignTimeRectangle="595, 696, 185, 47" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='linkToDocument0' type='' tag='A' class='' aaname='Prescription de produits de santé' /&gt;" Guid="37573e9c-ba1a-4dd0-9eb2-a70d5e1167d0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='[ Dossier Médical Partagé : Documents ]' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a67f854e0cff150aa28b66a58952a654.png" xmlns="">0GVXXH5JuWkmGzfAR36m-Gg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

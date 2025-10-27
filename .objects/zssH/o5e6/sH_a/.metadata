@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Adobe Acrobat Reader (64-bit)(3)",
+  "Type": "Screen",
+  "Id": "sH_a8-Lc70-sBtdIAvUdYg",
+  "Reference": "b4z9ll_EQUW04Ui68Xw-qg/sH_a8-Lc70-sBtdIAvUdYg",
+  "ParentRef": "b4z9ll_EQUW04Ui68Xw-qg/o5e6UbZzD0e691DLP68I_g",
+  "Created": "2025-07-10T13:50:18.6818239Z",
+  "Updated": "2025-07-10T13:50:18.6818239Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,283 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="RechercheCompteRenduExamenBiologique" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="out_DocumentTrouve" Type="OutArgument(x:Boolean)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>RechercheCompteRenduExamenBiologique_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="RechercheCompteRenduExamenBiologique" sap:VirtualizedContainerService.HintSize="1836,2569" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="604,2546" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome [ Dossier Médical Partagé  Récapitulat" sap:VirtualizedContainerService.HintSize="570,2463" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="3fa89269-066b-4b10-96d8-92154cb5c651" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Faire" sap:VirtualizedContainerService.HintSize="536,2223" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="titreBoutonDocument" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Liste des documents(1)'" sap:VirtualizedContainerService.HintSize="502,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3fa89269-066b-4b10-96d8-92154cb5c651" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="wps-psc.dmp.monespacesante.fr/dmp/recapitulatif" DesignTimeRectangle="400, 524, 245, 39" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='blockHome' tag='TABLE' /&gt;&lt;webctrl id='listeDocuments' type='' tag='A' class='buttonType1' aaname='Liste des documents' /&gt;" Guid="d17d68ee-7e47-4e8c-a981-8c81a2ca2d2a" InformativeScreenshot="0e7b6e1e1c9e92a444a0ee8c81566910.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='[ Dossier Médical Partagé : Récapitulatif ]' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NCheckState DisplayName="Check App State 'CR d'examens biologique…(2)'" EnableIfExists="False" sap:VirtualizedContainerService.HintSize="502,529" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="3fa89269-066b-4b10-96d8-92154cb5c651" Version="V4">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="La cible apparaît" sap:VirtualizedContainerService.HintSize="450,93.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="La cible n'apparaît pas" sap:VirtualizedContainerService.HintSize="450,280" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Biologie (1)'" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3fa89269-066b-4b10-96d8-92154cb5c651" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="wps-psc.dmp.monespacesante.fr/dmp/documents/liste/raz" DesignTimeRectangle="366, 756, 80, 17" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='span_biologie' type='' tag='SPAN' class='closed' aaname='Biologie*' /&gt;" Guid="4f7d03bf-3079-4568-8aae-e97be1156a60" InformativeScreenshot="ea25d069bd431b7463d3ece21c2e2097.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='[ Dossier Médical Partagé : Documents ]' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable BrowserURL="wps-psc.dmp.monespacesante.fr/dmp/documents/liste/raz" DesignTimeRectangle="386, 832, 161, 17" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='span_11502-2' type='' tag='SPAN' class='closed' aaname='CR d&amp;apos;examens biologiques*' /&gt;" Guid="5015c5b4-81d9-4fdf-843f-0f5df51ba21b" InformativeScreenshot="3b02126b803c5c5eff8df31c0c63b9c0.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='[ Dossier Médical Partagé : Documents ]' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                </uix:NCheckState.Target>
+              </uix:NCheckState>
+              <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="visibleInnerText" DisplayName="Get Attribute 'CR d'examens biologique…(1)'" sap:VirtualizedContainerService.HintSize="502,239" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_1" Result="[titreBoutonDocument]" ScopeIdentifier="3fa89269-066b-4b10-96d8-92154cb5c651" Version="V4">
+                <uix:NGetAttributeGeneric.Target>
+                  <uix:TargetAnchorable BrowserURL="wps-psc.dmp.monespacesante.fr/dmp/documents/liste/raz" DesignTimeRectangle="386, 832, 161, 17" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='span_11502-2' type='' tag='SPAN' class='closed' aaname='CR d&amp;apos;examens biologiques ' /&gt;" Guid="aea717bf-1320-4e13-a65b-55a5f5cd0875" InformativeScreenshot="3b02126b803c5c5eff8df31c0c63b9c0.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='[ Dossier Médical Partagé : Documents ]' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                </uix:NGetAttributeGeneric.Target>
+              </uix:NGetAttributeGeneric>
+              <If Condition="[titreBoutonDocument.Equals(&quot;CR d'examens biologiques&quot;)]" sap:VirtualizedContainerService.HintSize="502,1168" sap2010:WorkflowViewState.IdRef="If_1">
+                <If.Then>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,390" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Boolean">[out_DocumentTrouve]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'IMG(2)'" sap:VirtualizedContainerService.HintSize="434,216" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3fa89269-066b-4b10-96d8-92154cb5c651" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="wps-psc.dmp.monespacesante.fr/dmp/documents/liste/raz" DesignTimeRectangle="408, 172, 554, 90" DesignTimeScaleFactor="1" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl tag='IMG' type='' class='' aaname='DMP logo' /&gt;" Guid="8418de21-1171-432f-b602-19567e4144cb" InformativeScreenshot="d04f9a536405125dd21c9a7792fc9c3b.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='[ Dossier Médical Partagé : Documents ]' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,615" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Boolean">[out_DocumentTrouve]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'CR d'examens biologique…'" sap:VirtualizedContainerService.HintSize="434,225" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3fa89269-066b-4b10-96d8-92154cb5c651" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="wps-psc.dmp.monespacesante.fr/dmp/documents/liste/raz" DesignTimeRectangle="386, 599, 161, 17" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='span_11502-2' type='' tag='SPAN' class='closed' aaname='CR d&amp;apos;examens biologiques ' /&gt;" Guid="5f433471-cc7b-4e7b-83f4-6d481b4279f5" InformativeScreenshot="0d2e7bc1aa796862def95a101cc440b8.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='[ Dossier Médical Partagé : Documents ]' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'CR d'examens biologiques'" sap:VirtualizedContainerService.HintSize="434,216" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3fa89269-066b-4b10-96d8-92154cb5c651" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="wps-psc.dmp.monespacesante.fr/dmp/documents/liste" DesignTimeRectangle="718, 724, 72, 31" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='main-content' tag='TABLE' /&gt;&lt;webctrl id='linkToDocument0' type='' tag='A' class='' aaname='CR d&amp;apos;examens biologiques' /&gt;" Guid="dce82a38-5627-4aea-85dd-d9a2817ccdd2" InformativeScreenshot="7334dd3da3750c9d7779ffae790e5c6c.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='[ Dossier Médical Partagé : Documents ]' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                  </Sequence>
+                </If.Else>
+              </If>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-9, -9, 1938, 1158" BrowserType="Edge" ContentHash="iOjwBHbzm06KnW_JlhyCUQ" IconBase64="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" InformativeScreenshot="e9ad9d3fd059204fac029fa6b1c10c4b.jpg" Selector="&lt;html app='msedge.exe' title='[ Dossier Médical Partagé : Récapitulatif ]' /&gt;" Title="[ Dossier Médical Partagé : Récapitulatif ]" Url="https://wps-psc.dmp.monespacesante.fr/dmp/recapitulatif" Version="V1" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

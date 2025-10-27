@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Iq0X3JkxxkKZTzxp1gLwOg" Reference="b4z9ll_EQUW04Ui68Xw-qg/QzoC9NuOV0-yeY6G2FGHZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1154, 710, 120, 37" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;wnd cls='Button' title='Annuler' /&gt;" Guid="2c90fcb3-dfea-49ec-aa3d-4997f574f99e" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='#32770' title='Imprimer' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3a43f9dd42b94817593bc12efcb9e6de.png" xmlns="">0TLqPGxx_m02RcglllJz05A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

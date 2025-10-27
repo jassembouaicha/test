@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gw1YBbd14EiqTDkmL1NnFg" Reference="b4z9ll_EQUW04Ui68Xw-qg/1vTzJTktak2YFSBG3cWkCw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="138, 67, 368, 30" DesignTimeScaleFactor="1.5" ElementType="DropDown" FuzzySelectorArgument="&lt;wnd aaname='Imprimante :' cls='ComboBoxEx32' /&gt;&lt;wnd aaname='Imprimante :' cls='ComboBox' /&gt;" Guid="1113ac12-42d7-42c1-8efa-ce617c13fc5d" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='#32770' title='Imprimer' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="54cc0348cd8df3e6ca1c2741fe05222b.png" xmlns="">0uBLW0E0AC0iKKJEDCYoMuw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

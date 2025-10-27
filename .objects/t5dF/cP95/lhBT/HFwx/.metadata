@@ -1,0 +1,13 @@
+﻿{
+  "Name": "AV2AllToolsSecondaryCon…",
+  "Type": "Element",
+  "Id": "HFwx9fwl0E2eGheA_3eZag",
+  "Reference": "b4z9ll_EQUW04Ui68Xw-qg/HFwx9fwl0E2eGheA_3eZag",
+  "ParentRef": "b4z9ll_EQUW04Ui68Xw-qg/lhBTcBzdd0WSnIcVaMpCkg",
+  "Created": "2025-06-11T22:26:26.5731443Z",
+  "Updated": "2025-06-11T22:26:26.5731443Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

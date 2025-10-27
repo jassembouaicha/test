@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="f2tKGwyoOk-XFCudqkaZww" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 368, 74" DesignTimeScaleFactor="1.5" ElementType="List" Guid="5ce06380-cb3b-4f33-a0a2-f1ab57d74c95" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='ComboLBox' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.FuzzySelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:Literal x:TypeArguments="x:String" Value="" />
+        </p:InArgument>
+      </TargetAnchorable.FuzzySelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="c3fa9632fbbd4f32211849d4c0c33fa8.png" xmlns="">0mnkN_J6cOUOPD6k9DICaLQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

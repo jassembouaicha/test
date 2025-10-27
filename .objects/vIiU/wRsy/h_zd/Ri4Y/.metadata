@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Libellé 'Prescription de produit…'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Ri4Y7DsmekWFTogJfQkQ-A",
+  "Reference": "b4z9ll_EQUW04Ui68Xw-qg/Ri4Y7DsmekWFTogJfQkQ-A",
+  "ParentRef": "b4z9ll_EQUW04Ui68Xw-qg/h_zdX1FH_kqxDxxfUD1plQ",
+  "Created": "2025-06-16T08:58:37.2279254Z",
+  "Updated": "2025-06-16T08:58:37.2279254Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

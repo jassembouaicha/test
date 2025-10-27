@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qZUBEW7uF0-W489lAN0Bmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="8, 91, 220, 949" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;wnd cls='AVL_AVView' title='AVLeftContainerView' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AVL_AVView' title='AVLeftContainerView' check:text='AVLeftContainerView' /&gt;" Guid="ef97d967-2af7-4d9f-9172-4d84f8762cde" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='AcrobatSDIWindow' title='Adobe Acrobat (64-bit)' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ce59707a92ad7b303d3903dac06cb3b3.png" xmlns="">0sVFl5G8ufEKUL1l1OCj63g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

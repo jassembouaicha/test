@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aWKjnPyjPkyDl7_LaRkJGg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="229, 55, 289, 53" DesignTimeScaleFactor="1.5" ElementType="Toolbar" FuzzySelectorArgument="&lt;wnd aaname='Chargement' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='1001' title='Adresse : Documents' /&gt;" Guid="af91ffe5-f621-4442-a09a-26931e478af5" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='#32770' title='Ouvrir' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3ad0492a113580fb0a47cb6b7831d6d5.png" xmlns="">0gdMzRmyUfkGqkC4nBbJiMA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

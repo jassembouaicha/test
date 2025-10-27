@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DT-Vo-ixd0-wayfR82GUjA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="4, 8, 563, 42" DesignTimeScaleFactor="1.5" Guid="dca67047-f797-4541-96e9-9a63b7296f71" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAjMAAAAqCAYAAABGFNq4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQbSURBVHhe7d3NkapKAIDRl9/EgnGwIAm2ZmAGbo3BDVn0KxUU2uZPB+f2zDlVLAYaZOdX3Qz+FwAAMvZfvAMAICdiBgDImpgBALImZgCArIkZACBrYgYAyJqYAQCyJmYAgKyJGQAga2IGAMiamAEAsiZmAICsiRkAIGtiBgDImpgBALL22Zg5H8O+KkLx9RW+7lsRiuoYzud48A86Vtd7K/b/0k0B8Cc0p3Coy1DudmHXbWUZ6sMpNPHYzuWcwyneO6IJh/Jy3TosPWNS6n53ZSjrU2hGb/h7fSxmzvuiFzCprQjVvxIPYgaAH3Cqy14QJLYyESDN4RYS9dOREd8XM81h5n53lwjbvmg+EjP9kHmahTmfw7HqHRcQAPxBjzAoQ31qBrMwTXMK9TVALkFzGM7Q/FDM9EPmaRamaQZhVm4cNNvHzHnfLisVYbJTlo4DgN+mC5JLYIx+73cRsguDbvn2mJk73r/fMkx2ytJxb9o8ZrpZmSUzLqmxx2okcLr4qY7tn8/nDkRLR7fxVTiGY6iKbqmrCsfL4cQy0+R4AHjDqV44g3GqQ1nW4dAWT2qZp7vG7dglSHqzOtdYmouVueOPz52935VjX7VxzJzD/vrFn4iRlC5Qin3ohi+NmXCJjOjcvvg6XZxU1/3t1p07ETPJ8QDwsi4e1s9eLImZug2l63ZdopqLlaXHF95vNzsTL499o41jZjownnXxc5kBuYkj5DE0jplu7Ffo7bpJRNLjOZ7EtUdjZmQ8ALzsFOp3vuxHlpn6z+AMo2NprIwdX3u/c9d736+KmS5CBvt6IdLfPbksNREzyfEA8LK1cRCZiZnn5Z04Lh7P4kxvXRStvd/4877f74qZxPnpfenAuZuImeR4AHhZGwevftnPxMzzc8FxXIiZGemQGJVYDloXM4kZlJlxyTgRMwB8zLpnUJro37bfj5nYu8cj+T8zk4iLCamxa2Mmng0ai5Cx/VdiBoAPGl8SiqTC4OMxs+J+V4591eYxs/j9MSPjxh7qvT+QGx8YBND4MtdknIgZAD5p0ftYHstBgzD4gZhZdr8rxr1p+5jph8clEFa+Afh+bv8/kY5d+KRj5h4jxfNMT2cyTsQMAB/W/++j+HeYBm8AjiPjHjPDZZxNY2Zwv3/hDcCt8756BEhyG/ltpvuMzXArqvZ6ybrontXpZmji4zNxsipm2tmfp89Zux+Av20YAOkt8Ybg++zHMBxej5nlmkM9+Ozn7Rf9NtNdOwszjJMFv5p93vfeuttGz+gzMzepGZ3U8eTpYgaAH3KbhVn3q9mDqGjr5RMxc9XOwgyj5pf+ajYAwBY2jZl4aWjtBgAwZ9OYAQDYmpgBALImZgCArIkZACBrYgYAyJqYAQCyJmYAgKyJGQAga2IGAMja/xOvJQ0V8o7KAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="0, 0, 573, 1037" Guid="182f29ee-bd63-4584-b94b-ed4766d58436" SearchSteps="Selector, FuzzySelector">
+            <Target.FuzzySelectorArgument>
+              <p:InArgument x:TypeArguments="x:String">
+                <p:Literal x:TypeArguments="x:String" Value="" />
+              </p:InArgument>
+            </Target.FuzzySelectorArgument>
+          </Target>
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="71e33af3b35b1ce6aef60758dfe7163d.png" xmlns="">0A6KFcVCS9keYHzqnrDX3sQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

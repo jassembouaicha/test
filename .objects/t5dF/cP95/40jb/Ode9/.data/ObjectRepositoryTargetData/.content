@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bed08XwEnkOw7bwrcp40rw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="11, 14, 121, 48" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;wnd cls='AVL_AVView' idx='2' title='AVUITopRightCommandCluster' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AVL_AVView' title='AVUITopRightCommandCluster' check:text='AVUITopRightCommandCluster' /&gt;" Guid="5128732c-4694-4f91-826a-bccd5aa02d05" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='AcrobatSDIWindow' title='Adobe Acrobat Reader (64-bit)' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e890e836f2998e62976d56b53e40b289.png" xmlns="">0l3waAs5Hsk28tYCR9fQhBQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

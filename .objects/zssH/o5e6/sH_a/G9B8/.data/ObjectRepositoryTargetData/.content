@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BD_6lUBtNESAiWomZ-437A" Reference="b4z9ll_EQUW04Ui68Xw-qg/G9B85pm3lkuaNjjFtASuAQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="574, 505, 86, 26" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;wnd cls='Button' title='Imprimer' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Imprimer' /&gt;" Guid="0b8bad3b-79ad-4277-85d8-e9a2a371974b" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='#32770' title='Print' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="07607308114cb4210a82c627cb79486c.png" xmlns="">0h7rjk41DbkKVXAl996-uHA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

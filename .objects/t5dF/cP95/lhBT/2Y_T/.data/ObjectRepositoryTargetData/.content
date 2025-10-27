@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SoFDTxKdCkGOeS_WgJbqLQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1024, 710, 120, 37" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;wnd cls='Button' title='Imprimer' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='Imprimer' /&gt;" Guid="d3406876-e5ba-4f9b-8a25-e87282588054" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='#32770' title='Imprimer' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d639afec755faeed26d1f504b1d3ab2e.png" xmlns="">0GNjdYJYU0kmEBHlgDIxoWw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
