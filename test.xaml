@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="test" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="test_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="test" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="test_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -99,36 +99,12 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="test" sap:VirtualizedContainerService.HintSize="898.6666666666666,623.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="test" sap:VirtualizedContainerService.HintSize="916,495.3733333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="494,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;ok mdr&quot;]" />
-    <uix:NCheckState DisplayName="Check App State '• Il y a également la p…'" EnableIfNotExists="False" sap:VirtualizedContainerService.HintSize="494,424" sap2010:WorkflowViewState.IdRef="NCheckState_3" Version="V4">
-      <uix:NCheckState.IfExists>
-        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,180" sap2010:WorkflowViewState.IdRef="Sequence_12">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-          <Throw Exception="[New Exception(&quot;OK&quot;)]" sap:VirtualizedContainerService.HintSize="416,117.33333333333333" sap2010:WorkflowViewState.IdRef="Throw_1" />
-        </Sequence>
-      </uix:NCheckState.IfExists>
-      <uix:NCheckState.IfNotExists>
-        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,93.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_13">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </Sequence>
-      </uix:NCheckState.IfNotExists>
-      <uix:NCheckState.Target>
-        <uix:TargetAnchorable ContentHash="CZfQTrOh8Uih_bi34jC6OQ" DesignTimeRectangle="363, 278, 1190, 828" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;uia automationid='Body' name='Contenu de la page 2' role='Modifier' /&gt;" FuzzySelectorArgument="&lt;uia automationid='Body' name='Contenu de la page 2' role='Modifier' check:fulltext='• Il y a également la partie basse de studio indiquant le statut des modifications.&amp;#xD;&amp;#xD;&amp;#xD;&amp;#xD;De gauche à droite : &amp;#xD;Indication des commits à push. &amp;#xD;Indication des &amp;#xD;&amp;#xD;&amp;#xD;3.Init and Commit And Push &amp;#xD;Dans le menu de UiPath Studio : cliquer sur le bouton Team dans le menu à gauche puis sous la partie GIT, cliquer sur GIT Init (ou Init de GIT).&amp;#xD;La fonction Init. de Git (Git Init) permet d’ajouter le projet en cours à un référentiel Git local.Cette commande est accessible depuis l’onglet Équipe (Team), ou la barre d’état de UiPath Studio.' /&gt;" Guid="b6f447cf-ee4a-4ffa-b3ee-a83747bb1695" InformativeScreenshot="77a70199756ea2c660f2fe3f7e489013.png" Reference="b4z9ll_EQUW04Ui68Xw-qg/xeQ-MP2-3UStMdsjI-8RLA" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='mode_operatoire_GIT - Word' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
-      </uix:NCheckState.Target>
-    </uix:NCheckState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Test&quot;]" />
   </Sequence>
 </Activity>
